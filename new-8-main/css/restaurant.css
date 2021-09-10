@@ -509,6 +509,10 @@ footer i {
   }
 
   /* end product */
+
+  .bucket {
+    display: none;
+  }
   /* footer */
   .footer-col {
     width: 100%;
