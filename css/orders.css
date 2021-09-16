@@ -1,0 +1,65 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  color: #000;
+}
+
+.orders-page {
+  width: 40%;
+  margin: auto;
+}
+
+.orders-head {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 60px 0 0;
+}
+
+.order-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-top p {
+  font-size: 19px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 5px;
+}
+
+.order-date p {
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.order-items p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #5a5a5a;
+}
+
+.divider {
+  margin: 10px 0 30px;
+  height: 1px;
+  width: 100%;
+  background: #c5c5c5;
+}

@@ -38,7 +38,7 @@ a:hover {
 
 .top {
   color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   min-height: 100vh;
   width: 100%;
   background-size: cover;
@@ -219,8 +219,39 @@ input:focus {
 
 /* .kitchen-top */
 
+.kitchens-top-cols {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.kitchen-head-col p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .kitchens-top-cols a {
   color: #fff;
+}
+
+.kitchen-name {
+  box-shadow: inset 0px 0px 10px 0px #ff9933;
+  padding: 0;
+}
+
+.kitchen-name a {
+  display: block;
+  padding: 7px 0;
+  transition: all 0.4s linear;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.kitchen-name a:hover {
+  background: #ff9933;
+}
+
+.kitchens-top-cols .row {
+  justify-content: center;
 }
 
 /* kitchen slider */
